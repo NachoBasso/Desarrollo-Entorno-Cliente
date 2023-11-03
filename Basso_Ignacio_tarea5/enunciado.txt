@@ -1,0 +1,28 @@
+Partiendo del html, genera un JS para capturar 
+el valor numerio entero del formulario.
+
+Una vez capturado, debes no mostrar el formulario
+y mostrar la cuenta atras, que decremente cada segundo
+de manera que si incluimos en el formulario un
+valor de 4.
+
+Mostrará.
+Value is 4
+Esperara un segundo y mostrara:
+Value is 3
+Esperara un segundo y mostrara:
+Value is 2
+Esperara un segundo y mostrara:
+Value is 1
+
+Hasta que llegue al valor 0 que entontes mostrara:
+
+Zero reached!
+
+// Proposito de aprendizaje Setinterval
+// Manten la estructura
+// controls
+// on/off
+// functions
+// listeners
+// inicializadores
