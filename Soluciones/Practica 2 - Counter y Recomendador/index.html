@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+  <script src="./4_recomendador.js" type="module"></script>
+  <title>Recomendador</title>
+</head>
+
+<body>
+  <main id="root" class="container">
+    <section id="preview">
+      <form>
+        <div id="radio" style="display: block;">
+          <legend><strong>Selecciona</strong></legend>
+          <p></p>
+          <label for="dedia">¿Es de dia?</label>
+          <fieldset>
+            <input type="radio" name="dedia" value="dedia" checked="true" />
+            <label for="cansadostatus">Si</label>
+            <input type="radio" name="dedia" value="denoche" />
+            <label for="nocansadostatus">No</label>
+          </fieldset>
+          <label for="cansado">¿Cansado/a?</label>
+          <fieldset>
+            <input type="radio" name="cansado" value="cansado" checked="true" />
+            <label for="cansadostatus">Si</label>
+            <input type="radio" name="cansado" value="descansado" />
+            <label for="nocansadostatus">No</label>
+          </fieldset>
+          <label for="solo">¿Solo/a?</label>
+          <fieldset>
+            <input type="radio" name="solo" value="solo" checked="true" />
+            <label for="cansadostatus">Si</label>
+            <input type="radio" name="solo" value="acompañado" />
+            <label for="nocansadostatus">No</label>
+          </fieldset>
+        </div>
+        <div>
+          <button id="recom" type="submit">Recomienda</button>
+        </div>
+      </form>
+    </section>
+    <h1 id="h1"><span id =recomendacion></span></h1>
+  </main>
+  <script src="./4_recomendador_optimizado (1).js"></script>
+</body>
+
+</html>
