@@ -1,0 +1,24 @@
+JavaScript Moderno-----------------------------------------------------------
+
+https://docs.google.com/document/d/15v118ZqOipETDAjA1iKthnmxvxTJDPs0PuuizJVHD3E/edit?usp=sharing
+
+Prácticas de JavaScript Moderno----------------------------------------------
+
+https://docs.google.com/document/d/11UlwrBCT-NYKzXcUaVhWcHLT5jnjOVSGysJ70pC0aNk/edit?usp=sharing
+
+
+Introduccion---------------------------------------------------------------------
+
+https://xguaita.github.io/mtig-js/modulo2/
+
+
+Objetos predefinidos, arrays y funciones-----------------------------------------
+
+
+https://xguaita.github.io/mtig-js/modulo3/
+
+Trabajando con Objetos en JS - MDN-----------------------------------------------
+
+
+https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Working_with_objects
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+  <title>Countdown</title>
+</head>
+
+<body>
+  <main id="root" class="container">
+
+    <h1>Countdown</h1>
+
+    <div id="one"><!--ID del div 1-->
+
+      <form autocomplete="off">
+        <input type="text" id="number" placeholder="initial value" /><!--ID del numero entrada-->
+        <p id="badamount" style="display: none;">Invalid amount!</p><!--ID del texto de error-->
+        <input type="submit" value="Enter" />
+      </form>
+
+    </div>
+
+    <div id="two" style="display: none;"><!--ID del div 2-->
+
+      <p id="inprogress">Value is <span id="countdown">0</span></p><!--ID del texto + ID del contador-->
+      <p id="zeroreached" style="display: none;">Zero reached!</p><!--ID del texto final-->
+
+    </div>
+
+  </main>
+  <script src="./countdown.js"></script>
+</body>
+
+</html>

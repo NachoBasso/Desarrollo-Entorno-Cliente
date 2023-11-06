@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+  <title>Clickdown</title>
+</head>
+<body>
+  <main id="root" class="container">
+    <h1>Clickdown</h1>
+
+    <div id="one"><!--ID del div-->
+
+      <form autocomplete="off">
+        <input type="text" id="number" placeholder="initial value" /><!--ID de la entrada del numero-->
+        <p id="badamount" style="display: none;">Invalid amount!</p><!--ID mensaje ocuto,Solo si es un valor erroneo-->
+        <input type="submit" value="Enter" /><!--BOTON DE ENVIAR-->
+      </form>
+
+    </div>
+
+    <div id="two" style="display: none;"> <!--ID del segundo div, el cual esta oculto-->
+
+      <p id="inprogress">Value is <span id="countdown">0</span></p><!--ID del texto, el cual va cambiando(restando los numeros)-->
+      <p id="zeroreached" style="display: none;">Zero reached!</p><!--ID del texto cuando alcance el 0-->
+      <button id="clickme">
+        Click me
+      </button><!--ID del boton para ir restando los valores-->
+
+    </div>
+
+  </main>
+  <script src="./clickdown.js"></script>
+</body>
+</html>

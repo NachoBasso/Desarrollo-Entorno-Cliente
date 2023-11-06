@@ -1,0 +1,21 @@
+Una vez que se introduce un nombre en 
+el formulario, se debe recoger el nombre, 
+ocultar el formulario y mostrar el nombre
+
+Se debe organizar el codigo conforme a la
+plantilla de JS que se aporta
+
+// controls
+
+// on/off
+
+// listeners
+
+// initializers
+
+Objetivo de aprendizaje
+
+1.- Modificar la visibilidad de elementos del DOM
+    (display)
+2.- Añadir listeners para recoger el formulario.
+3.- Estudiar el API preventDefault y emplearla

@@ -1,0 +1,13 @@
+Partiendo de los proyectos
+
+counter
+
+https://github.com/JulianHernandezMartinez/daw_dwec/tree/main/2_Practicas/2_counter
+
+y
+
+Recomendador
+
+https://github.com/JulianHernandezMartinez/daw_dwec/tree/main/2_Practicas/3_recomendador
+
+completarlas para darle la funcionalidad descrita en los enunciados.

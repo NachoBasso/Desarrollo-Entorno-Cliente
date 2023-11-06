@@ -1,0 +1,7 @@
+Se trata de partiendo del index.html darle vida a un contador hacia abajo, que recoja un numero en el formulario y que cada vez que se clicka decremente un numero.
+
+Debe mostrar un mensaje de error en caso de que el valor introducido en el formulario no sea numero entero.
+
+index.html aqui:
+
+https://github.com/JulianHernandezMartinez/daw_dwec/tree/main/2_Practicas/5_Clickdown
